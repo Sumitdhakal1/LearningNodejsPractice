@@ -46,6 +46,7 @@ const requestHadler = (req, res) => {
 // }
 
 // third way
-// module.exports.handler = requestHadler;
+//  module.exports.handler = requestHadler;
 
 exports.handler = requestHadler;
+exports.sometext= 'sumit';
